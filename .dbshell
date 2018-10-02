@@ -1,0 +1,30 @@
+show dbs
+show dbs
+show collections
+usde locations
+use locations
+db.test.find()
+show dbs
+db.locations.find()
+show dbs
+find
+help
+show dbs
+show collections
+db.locations.drop()
+show dbs
+db.locations.drop()
+show collections
+db.logins.remove()
+db.logins.remove({});
+show collections
+show dbs
+show dbs
+show collections
+logins
+db.locations.drop()
+show collections
+db.logins.drop()
+show collectors
+show collections
+db.locations.drop()

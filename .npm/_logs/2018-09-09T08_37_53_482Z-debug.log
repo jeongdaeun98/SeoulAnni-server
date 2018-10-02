@@ -1,0 +1,167 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', 'sequelize' ]
+2 info using npm@5.6.0
+3 info using node@v8.11.4
+4 verbose config Skipping project config: /home/ubuntu/.npmrc. (matches userconfig)
+5 verbose npm-session be92c33d9370c3ca
+6 silly install loadCurrentTree
+7 silly install readLocalPackageData
+8 http fetch GET 200 https://registry.npmjs.org/sequelize 87ms
+9 silly pacote tag manifest for sequelize@latest fetched in 148ms
+10 silly install loadIdealTree
+11 silly install cloneCurrentTreeToIdealTree
+12 silly install loadShrinkwrap
+13 silly install loadAllDepsIntoIdealTree
+14 silly resolveWithNewModule sequelize@4.38.0 checking installable status
+15 http fetch GET 200 https://registry.npmjs.org/debug 41ms (from cache)
+16 http fetch GET 200 https://registry.npmjs.org/depd 41ms (from cache)
+17 http fetch GET 200 https://registry.npmjs.org/lodash 39ms (from cache)
+18 silly pacote range manifest for depd@^1.1.0 fetched in 45ms
+19 silly resolveWithNewModule depd@1.1.2 checking installable status
+20 silly pacote range manifest for lodash@^4.17.1 fetched in 44ms
+21 silly resolveWithNewModule lodash@4.17.10 checking installable status
+22 silly pacote range manifest for debug@^3.1.0 fetched in 56ms
+23 silly resolveWithNewModule debug@3.1.0 checking installable status
+24 http fetch GET 200 https://registry.npmjs.org/bluebird 72ms
+25 http fetch GET 200 https://registry.npmjs.org/dottie 82ms
+26 http fetch GET 200 https://registry.npmjs.org/cls-bluebird 83ms
+27 http fetch GET 200 https://registry.npmjs.org/inflection 83ms
+28 http fetch GET 200 https://registry.npmjs.org/generic-pool 85ms
+29 http fetch GET 200 https://registry.npmjs.org/moment-timezone 89ms
+30 silly pacote range manifest for bluebird@^3.5.0 fetched in 95ms
+31 silly resolveWithNewModule bluebird@3.5.2 checking installable status
+32 http fetch GET 200 https://registry.npmjs.org/retry-as-promised 51ms
+33 http fetch GET 200 https://registry.npmjs.org/terraformer-wkt-parser 43ms
+34 silly pacote range manifest for dottie@^2.0.0 fetched in 100ms
+35 silly resolveWithNewModule dottie@2.0.0 checking installable status
+36 silly pacote range manifest for cls-bluebird@^2.1.0 fetched in 102ms
+37 silly resolveWithNewModule cls-bluebird@2.1.0 checking installable status
+38 silly pacote range manifest for generic-pool@^3.4.0 fetched in 104ms
+39 silly resolveWithNewModule generic-pool@3.4.2 checking installable status
+40 silly pacote version manifest for inflection@1.12.0 fetched in 105ms
+41 silly resolveWithNewModule inflection@1.12.0 checking installable status
+42 http fetch GET 200 https://registry.npmjs.org/semver 61ms
+43 silly pacote range manifest for moment-timezone@^0.5.14 fetched in 106ms
+44 silly resolveWithNewModule moment-timezone@0.5.21 checking installable status
+45 silly pacote range manifest for terraformer-wkt-parser@^1.1.2 fetched in 55ms
+46 silly resolveWithNewModule terraformer-wkt-parser@1.2.0 checking installable status
+47 silly pacote range manifest for retry-as-promised@^2.3.2 fetched in 64ms
+48 silly resolveWithNewModule retry-as-promised@2.3.2 checking installable status
+49 silly pacote range manifest for semver@^5.5.0 fetched in 65ms
+50 silly resolveWithNewModule semver@5.5.1 checking installable status
+51 http fetch GET 200 https://registry.npmjs.org/validator 19ms
+52 silly pacote range manifest for validator@^10.4.0 fetched in 28ms
+53 silly resolveWithNewModule validator@10.7.1 checking installable status
+54 http fetch GET 200 https://registry.npmjs.org/uuid 30ms
+55 http fetch GET 200 https://registry.npmjs.org/wkx 27ms
+56 http fetch GET 200 https://registry.npmjs.org/toposort-class 42ms
+57 silly pacote range manifest for wkx@^0.4.1 fetched in 33ms
+58 silly resolveWithNewModule wkx@0.4.5 checking installable status
+59 silly pacote range manifest for uuid@^3.2.1 fetched in 36ms
+60 silly resolveWithNewModule uuid@3.3.2 checking installable status
+61 silly pacote range manifest for toposort-class@^1.0.1 fetched in 45ms
+62 silly resolveWithNewModule toposort-class@1.0.1 checking installable status
+63 http fetch GET 200 https://registry.npmjs.org/moment 165ms
+64 silly pacote range manifest for moment@^2.20.0 fetched in 168ms
+65 silly resolveWithNewModule moment@2.22.2 checking installable status
+66 http fetch GET 200 https://registry.npmjs.org/shimmer 21ms
+67 http fetch GET 200 https://registry.npmjs.org/is-bluebird 21ms
+68 silly pacote range manifest for shimmer@^1.1.0 fetched in 24ms
+69 silly resolveWithNewModule shimmer@1.2.0 checking installable status
+70 silly pacote range manifest for is-bluebird@^1.0.2 fetched in 25ms
+71 silly resolveWithNewModule is-bluebird@1.0.2 checking installable status
+72 http fetch GET 200 https://registry.npmjs.org/ms 2ms (from cache)
+73 silly pacote version manifest for ms@2.0.0 fetched in 3ms
+74 silly resolveWithNewModule ms@2.0.0 checking installable status
+75 silly pacote range manifest for debug@^2.6.9 fetched in 1ms
+76 silly resolveWithNewModule debug@2.6.9 checking installable status
+77 http fetch GET 200 https://registry.npmjs.org/terraformer 32ms
+78 http fetch GET 200 https://registry.npmjs.org/@types%2fgeojson 33ms
+79 silly pacote range manifest for terraformer@~1.0.5 fetched in 36ms
+80 silly resolveWithNewModule terraformer@1.0.9 checking installable status
+81 silly pacote range manifest for @types/geojson@^1.0.0 fetched in 37ms
+82 silly resolveWithNewModule @types/geojson@1.0.6 checking installable status
+83 http fetch GET 200 https://registry.npmjs.org/@types%2fnode 16ms
+84 silly pacote range manifest for @types/node@* fetched in 28ms
+85 silly resolveWithNewModule @types/node@10.9.4 checking installable status
+86 silly currentTree ubuntu
+87 silly idealTree ubuntu
+87 silly idealTree ├── @types/geojson@1.0.6
+87 silly idealTree ├── @types/node@10.9.4
+87 silly idealTree ├── bluebird@3.5.2
+87 silly idealTree ├── cls-bluebird@2.1.0
+87 silly idealTree ├── debug@3.1.0
+87 silly idealTree ├── depd@1.1.2
+87 silly idealTree ├── dottie@2.0.0
+87 silly idealTree ├── generic-pool@3.4.2
+87 silly idealTree ├── inflection@1.12.0
+87 silly idealTree ├── is-bluebird@1.0.2
+87 silly idealTree ├── lodash@4.17.10
+87 silly idealTree ├── moment-timezone@0.5.21
+87 silly idealTree ├── moment@2.22.2
+87 silly idealTree ├── ms@2.0.0
+87 silly idealTree ├─┬ retry-as-promised@2.3.2
+87 silly idealTree │ └── debug@2.6.9
+87 silly idealTree ├── semver@5.5.1
+87 silly idealTree ├── sequelize@4.38.0
+87 silly idealTree ├── shimmer@1.2.0
+87 silly idealTree ├── terraformer-wkt-parser@1.2.0
+87 silly idealTree ├── terraformer@1.0.9
+87 silly idealTree ├── toposort-class@1.0.1
+87 silly idealTree ├── uuid@3.3.2
+87 silly idealTree ├── validator@10.7.1
+87 silly idealTree └── wkx@0.4.5
+88 silly install generateActionsToTake
+89 warn checkPermissions Missing write access to /home/ubuntu/node_modules
+90 silly saveTree ubuntu
+90 silly saveTree └─┬ sequelize@4.38.0
+90 silly saveTree   ├── bluebird@3.5.2
+90 silly saveTree   ├─┬ cls-bluebird@2.1.0
+90 silly saveTree   │ ├── is-bluebird@1.0.2
+90 silly saveTree   │ └── shimmer@1.2.0
+90 silly saveTree   ├─┬ debug@3.1.0
+90 silly saveTree   │ └── ms@2.0.0
+90 silly saveTree   ├── depd@1.1.2
+90 silly saveTree   ├── dottie@2.0.0
+90 silly saveTree   ├── generic-pool@3.4.2
+90 silly saveTree   ├── inflection@1.12.0
+90 silly saveTree   ├── lodash@4.17.10
+90 silly saveTree   ├─┬ moment-timezone@0.5.21
+90 silly saveTree   │ └── moment@2.22.2
+90 silly saveTree   ├── moment@2.22.2
+90 silly saveTree   ├─┬ retry-as-promised@2.3.2
+90 silly saveTree   │ └── debug@2.6.9
+90 silly saveTree   ├── semver@5.5.1
+90 silly saveTree   ├─┬ terraformer-wkt-parser@1.2.0
+90 silly saveTree   │ ├── @types/geojson@1.0.6
+90 silly saveTree   │ └── terraformer@1.0.9
+90 silly saveTree   ├── toposort-class@1.0.1
+90 silly saveTree   ├── uuid@3.3.2
+90 silly saveTree   ├── validator@10.7.1
+90 silly saveTree   └─┬ wkx@0.4.5
+90 silly saveTree     └── @types/node@10.9.4
+91 warn enoent ENOENT: no such file or directory, open '/home/ubuntu/package.json'
+92 verbose enoent This is related to npm not being able to find a file.
+93 warn ubuntu No description
+94 warn ubuntu No repository field.
+95 warn ubuntu No README data
+96 warn ubuntu No license field.
+97 verbose stack Error: EACCES: permission denied, access '/home/ubuntu/node_modules'
+98 verbose cwd /home/ubuntu
+99 verbose Linux 4.4.0-1065-aws
+100 verbose argv "/usr/bin/node" "/usr/bin/npm" "install" "sequelize"
+101 verbose node v8.11.4
+102 verbose npm  v5.6.0
+103 error path /home/ubuntu/node_modules
+104 error code EACCES
+105 error errno -13
+106 error syscall access
+107 error Error: EACCES: permission denied, access '/home/ubuntu/node_modules'
+107 error  { Error: EACCES: permission denied, access '/home/ubuntu/node_modules'
+107 error   stack: 'Error: EACCES: permission denied, access \'/home/ubuntu/node_modules\'',
+107 error   errno: -13,
+107 error   code: 'EACCES',
+107 error   syscall: 'access',
+107 error   path: '/home/ubuntu/node_modules' }
+108 error Please try running this command again as root/Administrator.
+109 verbose exit [ -13, true ]
